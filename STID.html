@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h4><a href="index.html">Home</a></h4>
+  <h1 class="header"></h1>
+  <a href="STID.html"
+    ><img
+      class="img"
+      src="../images/Star-Trek-Into-Darkness.jpg"
+      alt="Star Trek Into Darkness"
+  /></a>
+  <h2>Synopsis</h2>
+  <p>
+    After the crew of the Enterprise find an unstoppable force of terror from
+    within their own organization, Captain Kirk leads a manhunt to a war-zone
+    world to capture a one-man weapon of mass destruction.
+  </p>
+  <h2>Notable Actors</h2>
+  <div class="my-grid">
+    <div class="actor1">
+      Chris Pine
+      <img class="img" src="../images/Chris-Pine.jpg" alt="Chris Pine" />
+    </div>
+    <div class="actor2">
+      Zachary Quinto
+      <img
+        class="img"
+        src="../images/Zachary-Quinto.jpg"
+        alt="Zachary Quinto"
+      />
+    </div>
+    <div class="actor3">
+      <a href="Karl.html">Karl Urban</a
+      ><a href="Karl.html"
+        ><img class="img" src="../images/Karl-Urban.jpg" alt="Karl Urban"
+      /></a>
+    </div>
+    <div class="actor4">
+      <a href="Benedict.html">Benedict Cumberbatch</a>
+      <a href="Benedict.html">
+        <img
+          class="img"
+          src="../images/Benedict-Cumberbatch.jpg"
+          alt="Benedict Cumberbatch"
+      /></a>
+    </div>
+  </div>
+  <style>
+    h2,
+    h1,
+    p {
+      text-align: center;
+    }
+    h1,
+    h2 {
+      margin-bottom: 2.5em;
+    }
+    .img {
+      max-height: 300px;
+      max-width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4em;
+    }
+    div {
+      font-weight: bold;
+      text-align: center;
+      display: block;
+    }
+    .my-grid {
+      display: grid;
+
+      grid-template-areas:
+        "header header header header"
+        "actor1 actor2 actor3 actor4"
+        "footer footer footer footer";
+
+      text-align: center;
+    }
+  </style>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h4><a href="index.html">Home</a></h4>
+  <h1 class="header"></h1>
+  <a href="Benedict.html"
+    ><img
+      class="img"
+      src="../images/Benedict-Cumberbatch.jpg"
+      alt="Benedict Cumberbatch"
+  /></a>
+  <h2>Biography</h2>
+  <p>
+    Benedict Timothy Carlton Cumberbatch was born and raised in London, England.
+    His parents, Wanda Ventham and Timothy Carlton (born Timothy Carlton Congdon
+    Cumberbatch), are both actors. He is a grandson of submarine commander Henry
+    Carlton Cumberbatch, and a great-grandson of diplomat Henry Arnold
+    Cumberbatch CMG. Cumberbatch attended Brambletye School and Harrow School.
+    Whilst at Harrow, he had an arts scholarship and painted large oil canvases.
+    It's also where he began acting. After he finished school, he took a year
+    off to volunteer as an English teacher in a Tibetan monastery in Darjeeling,
+    India. On his return, he studied drama at Manchester University. He
+    continued his training as an actor at the London Academy of Music and
+    Dramatic Art graduating with an M.A. in Classical Acting. By the time he had
+    completed his studies, he already had an agent.
+  </p>
+  <h2>Known For</h2>
+  <div class="my-grid">
+    <div class="movie1">
+      <a href="imitation.html"> The Imitation Game</a>
+      <a href="imitation.html"
+        ><img
+          class="img"
+          src="../images/The-Imitation-Game.jpg"
+          alt="The Imitation Game"
+      /></a>
+    </div>
+    <div class="movie2">
+      <a href="STID.html">Star Trek: Into Darkness</a>
+      <a href="STID.html"
+        ><img
+          class="img"
+          src="../images/Star-Trek-Into-Darkness.jpg"
+          alt="Star Trek: Into Darkness"
+      /></a>
+    </div>
+    <div class="movie3">
+      Doctor Strange
+      <img
+        class="img"
+        src="../images/Doctor-Strange.jpg"
+        alt="Doctor Strange"
+      />
+    </div>
+    <div class="movie4">
+      The Fifth Estate
+      <img
+        class="img"
+        src="../images/The-Fifth-Estate.jpg"
+        alt="The Fifth Estate"
+      />
+    </div>
+  </div>
+  <style>
+    h2,
+    h1,
+    p {
+      text-align: center;
+    }
+    h1,
+    h2 {
+      margin-bottom: 2.5em;
+    }
+    .img {
+      max-height: 300px;
+      max-width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4em;
+    }
+    div {
+      font-weight: bold;
+      text-align: center;
+      display: block;
+    }
+    .my-grid {
+      display: grid;
+
+      grid-template-areas:
+        "header header header header"
+        "Movie1 Movie2 Movie3 Movie4"
+        "footer footer footer footer";
+
+      text-align: center;
+    }
+  </style>
+</html>

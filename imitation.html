@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h4><a href="index.html">Home</a></h4>
+  <h1 class="header"></h1>
+  <a href="imitation.html"
+    ><img
+      class="img"
+      src="../images/The-Imitation-Game.jpg"
+      alt="The Imitation Game"
+  /></a>
+  <h2>Synopsis</h2>
+  <p>
+    During World War II, the English mathematical genius Alan Turing tries to
+    crack the German Enigma code with help from fellow mathematicians.
+  </p>
+  <h2>Notable Actors</h2>
+  <div class="my-grid">
+    <div class="actor1">
+      <a href="Benedict.html">Benedict Cumberbatch</a>
+      <a href="Benedict.html"
+        ><img
+          class="img"
+          src="../images/Benedict-Cumberbatch.jpg"
+          alt="Benedict Cumberbatch"
+      /></a>
+    </div>
+    <div class="actor2">
+      Keira Knightley
+      <img
+        class="img"
+        src="../images/Keira-Knightley.jpg"
+        alt="Keira Knightley"
+      />
+    </div>
+    <div class="actor3">
+      Matthew Goode
+      <img class="img" src="../images/Matthew-Goode.jpg" alt="Matthew Goode" />
+    </div>
+    <div class="actor4">
+      Charles Dance
+      <img class="img" src="../images/Charles-Dance.jpg" alt="Charles Dance" />
+    </div>
+  </div>
+  <style>
+    h2,
+    h1,
+    p {
+      text-align: center;
+    }
+    h1,
+    h2 {
+      margin-bottom: 2.5em;
+    }
+    .img {
+      max-height: 300px;
+      max-width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4em;
+    }
+    div {
+      font-weight: bold;
+      text-align: center;
+      display: block;
+    }
+    .my-grid {
+      display: grid;
+
+      grid-template-areas:
+        "header header header header"
+        "actor1 actor2 actor3 actor4"
+        "footer footer footer footer";
+
+      text-align: center;
+    }
+  </style>
+</html>

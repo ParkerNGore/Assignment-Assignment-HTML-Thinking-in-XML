@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h4><a href="index.html">Home</a></h4>
+  <h1 class="header"></h1>
+  <a href="lotr.html"
+    ><img
+      class="img"
+      src="../images/LOTR-Fellowship-of-the-ring.jpg"
+      alt="Lord of The Rings: Fellowship of The Ring"
+  /></a>
+  <h2>Synopsis</h2>
+  <p>
+    A meek Hobbit from the Shire and eight companions set out on a journey to
+    destroy the powerful One Ring and save Middle-earth from the Dark Lord
+    Sauron.
+  </p>
+  <h2>Notable Actors</h2>
+  <div class="my-grid">
+    <div class="actor1">
+      Orlando Bloom
+      <img class="img" src="../images/Orlando-Bloom.jpg" alt="Orlando Bloom" />
+    </div>
+    <div class="actor2">
+      Elijah Wood
+      <img class="img" src="../images/Elijah-Wood.jpg" alt="Elijah Wood" />
+    </div>
+    <div class="actor3">
+      Viggo Mortensen
+      <img
+        class="img"
+        src="../images/Viggo-Mortensen.jpg"
+        alt="Viggo Mortensen"
+      />
+    </div>
+    <div class="actor4">
+      Ian McKellan
+      <img class="img" src="../images/Ian-Mckellan.jpg" alt="Ian McKellan" />
+    </div>
+  </div>
+  <style>
+    h2,
+    h1,
+    p {
+      text-align: center;
+    }
+    h1,
+    h2 {
+      margin-bottom: 2.5em;
+    }
+    .img {
+      max-height: 300px;
+      max-width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4em;
+    }
+    div {
+      font-weight: bold;
+      text-align: center;
+      display: block;
+    }
+    .my-grid {
+      display: grid;
+
+      grid-template-areas:
+        "header header header header"
+        "actor1 actor2 actor3 actor4"
+        "footer footer footer footer";
+
+      text-align: center;
+    }
+  </style>
+</html>
